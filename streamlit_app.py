@@ -3,7 +3,7 @@ import pandas as pd
 
 st.write("## Dashboard Tutorial") # ## für Ueberschrift Anzeige 
 
-df = pd.read_csv("Boardgame.csv", sep=";", index_col= 1)
+df = pd.read_csv("bgg_dataset.csv", sep=";", index_col= 1)
 
 Top_ten = df.head(10)
 
